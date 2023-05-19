@@ -12,7 +12,7 @@ Prerequisites
 -------------
 
 - C++ compiler (C++11 or newer)
-- Fortran compiler (Fortran90 or newer)
+- Fortran compiler (Fortran 2003 or newer)
 - MPI library
 - `Boost C++ library <https://www.boost.org/>`_
 - `FFTW3 library <https://www.fftw.org/>`_ (Note: if you compiled FFTW with the Intel compiler, please compile TC++ with the Intel compiler to avoid some errors.)
@@ -87,13 +87,13 @@ and copy ``tc++`` compiled above to the ``test`` directory. Then, test calculati
 
 , which will take one or few minutes.
 
-.. note::
+.. warning::
 
    python2 is not supported.
 
-.. note::
+.. warning::
 
-   DO NOT use the input files (including pseudopot.) provided here for your research. There were made only for test calculation.
+   DO NOT use the input files (including pseudopot.) provided here for your research. They were made only for test calculation.
 
 .. note::
 
